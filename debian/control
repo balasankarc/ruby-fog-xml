@@ -1,0 +1,21 @@
+Source: ruby-fog-xml
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 7.0.50~), gem2deb, ruby-rspec, rake
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-fog-xml.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-ruby-extras/ruby-fog-xml.git;a=summary
+Homepage: https://github.com/fog/fog-xml
+Testsuite: autopkgtest
+XS-Ruby-Versions: all
+
+Package: ruby-fog-xml
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter
+# fog-core (>= 0), nokogiri (>= 1.5.11, ~> 1.5), rake (>= 0, development), minitest (>= 0, development), turn (>= 0, development), pry (>= 0, development), coveralls (>= 0, development)
+Description: XML parsing for fog providers
+ Extraction of the XML parsing tools shared between a
+ number of providers in the 'fog' gem
