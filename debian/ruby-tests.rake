@@ -1,7 +1,6 @@
-require 'rspec/core/rake_task'
-
-RSpec::Core::RakeTask.new(:spec) do |spec|
-  spec.pattern = './spec/*_spec.rb'
+require 'gem2deb/rake/testtask'
+Gem2Deb::Rake::TestTask.new do |t|
+    t.libs << 'spec'
+  t.test_files = FileList['spec/*/*/*_spec.rb']
 end
 
-task :default => :spec

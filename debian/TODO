@@ -1,0 +1,2 @@
+Commented out the portions from minitest_helper which require the gem turn. 
+turn can't be packaged right now due to its dependency on Minitest (<5)
