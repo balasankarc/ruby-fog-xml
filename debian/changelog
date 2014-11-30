@@ -1,4 +1,4 @@
-ruby-fog-xml (0.1.1-1) unstable; urgency=medium
+ruby-fog-xml (0.1.1-1) experimental; urgency=medium
 
   * Initial release (Closes: #123456)
 
