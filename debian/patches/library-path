@@ -1,0 +1,16 @@
+Description: Fix library path
+ Change relative library path to absolute for CI to work
+Author: Balasankar C <balasankarc@autistici.org>
+Last-Update: 2015-01-17
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+--- a/spec/minitest_helper.rb
++++ b/spec/minitest_helper.rb
+@@ -28,6 +28,6 @@
+   end
+ end
+ 
+-require File.join(File.dirname(__FILE__), "../lib/fog/xml")
++require 'fog/xml'
+ 
+ Coveralls.wear! if ENV["COVERAGE"]

@@ -1,3 +1,11 @@
+ruby-fog-xml (0.1.1-2) experimental; urgency=medium
+
+  * Debian update
+  * Fix library path for DebCI to work
+  * Fix files changed by patch
+
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 17 Jan 2015 12:35:26 +0530
+
 ruby-fog-xml (0.1.1-1) experimental; urgency=medium
 
   * Initial release (Closes: #771522)
