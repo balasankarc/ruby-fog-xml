@@ -1,6 +1,5 @@
 ruby-fog-xml (0.1.1-2) experimental; urgency=medium
 
-  * Debian update
   * Fix library path for DebCI to work
   * Fix files changed by patch
 
