@@ -16,6 +16,8 @@ Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ruby | ruby-interpreter, ruby-fog-core, ruby-nokogiri
 # fog-core (>= 0), nokogiri (>= 1.5.11, ~> 1.5), rake (>= 0, development), minitest (>= 0, development), turn (>= 0, development), pry (>= 0, development), coveralls (>= 0, development)
+Breaks: ruby-fog (<< 1.25~)
+Replaces: ruby-fog (<< 1.25~)
 Description: XML parsing for fog providers
  Extraction of the XML parsing tools shared between a number of providers in 
  the 'fog' gem. fog is the Ruby cloud services library, top to bottom:
