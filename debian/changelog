@@ -1,3 +1,9 @@
+ruby-fog-xml (0.1.1-5) unstable; urgency=medium
+
+  * Add ruby-minitest to Build-Depends : Fix FTBFS
+
+ -- Balasankar C <balasankarc@autistici.org>  Sat, 11 Jul 2015 17:42:11 +0530
+
 ruby-fog-xml (0.1.1-4) unstable; urgency=medium
 
   * Team upload
